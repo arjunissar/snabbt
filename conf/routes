@@ -1,0 +1,61 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /getAllEmployees                 controllers.Application.getAllEmployees()
+
+# Home page
+GET     /addEmployee                     controllers.Application.addEmployee()
+
+# Home page
+GET     /makeEmployeeInactive                     controllers.Application.makeEmployeeInactive()
+
+# Home page
+GET     /makeEmployeeActive                     controllers.Application.makeEmployeeActive()
+
+# Home page
+GET     /removeAllEmployees                     controllers.Application.removeAllEmployees()
+
+# Home page
+GET     /getAllConductors                     controllers.Application.getAllConductors()
+
+# Home page
+GET     /getAllOwners                     controllers.Application.getAllOwners()
+
+# Home page
+GET     /getAllManagers                     controllers.Application.getAllManagers()
+
+
+
+
+
+# Home page
+GET     /addBus                     controllers.Application.addBus()
+
+# Home page
+GET     /makeBusInactive                     controllers.Application.makeBusInactive()
+
+# Home page
+GET     /makeBusActive                     controllers.Application.makeBusActive()
+
+
+
+
+
+# Home page
+GET     /initiateSingle                     controllers.Single.initiateSingle()
+
+# Home page
+GET     /finalizeSingle                     controllers.Single.finalizeSingle()
+
+
+
+
+
+
+
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
